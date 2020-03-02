@@ -1,0 +1,73 @@
+
+.move{
+    font-size: 4rem;
+    padding: 3px;
+}
+
+
+.drive{
+    display: flex;
+    justify-content: start;
+    }
+
+.one{
+    background-color: white;
+    font-size: small;
+}
+.two{background-color: white;}
+
+.btn{
+    border: 2px blue;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: white;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(136, 115, 184, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.btn:hover{
+    background-color: purple;
+}
+
+.blue{
+    background-color: teal ;
+}
+
+
+.item{
+    padding: 60px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.photo{
+    float: right;
+    margin: right 25%;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    font-weight: bolder;
+    justify-content: space-around;
+    padding: 2.5rem;
+    width: 100%;
+    }
+
+.brand{
+    width: 5%;
+}
+
+.uber{
+   text-align: end;
+   color:white;
+}
